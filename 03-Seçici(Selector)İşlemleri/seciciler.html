@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seçiciler</title>
+    <style>
+      h1 {
+        color: tomato;
+        font-size: 32px;
+        text-align: center;
+      }
+
+      p {
+        color: blue;
+      }
+
+      .yesil {
+        color: green;
+      }
+      div.kirmizi {
+        color: red;
+      }
+
+      p::first-letter {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: green;
+        font-size: 60px;
+      }
+      p::first-line{
+        color:red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Seçiciler</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, atque.</p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ea quo optio
+      nesciunt eum neque doloremque, recusandae, fugit harum asperiores rerum
+      nostrum quasi! Facere ducimus velit corrupti ut deserunt, amet nostrum est
+      inventore voluptas nam? Ex nihil obcaecati, repellendus eius corporis
+      quibusdam quam quo, est quos ducimus ipsam consectetur doloribus officiis
+      sapiente esse sit nisi reiciendis iusto dignissimos. Fugit expedita
+      exercitationem quidem, excepturi dignissimos rerum vero quibusdam,
+      voluptatibus non fuga sed pariatur nostrum eum. In id facere quae
+      excepturi asperiores dicta, ipsam sunt! Sapiente aliquam, repudiandae at
+      accusamus mollitia quae facilis, delectus dolor consequuntur iure, nulla
+      obcaecati vitae velit dolores.
+    </p>
+    <div class="yesil">Buradaki yazıları yeşil yapan class seçicidir.</div>
+    <br />
+
+    <div class="kirmizi">
+      Buradaki yazılar divin içide seçilen kirmizi klası sayaesinde kırmızıdır.
+      Aşağıda kırmızı klasına sahip paragrafta ise etkisi yoktur.
+    </div>
+    <p class="kirmizi">
+      Burası kırmızı klasına sahip paragraftır. Ancak klasa ait css seçicisi ile
+      renk atanmadığı için p etiketine sahip css kodu ile renk mavi olarak
+      kalmıştır.
+    </p>
+  </body>
+</html>
